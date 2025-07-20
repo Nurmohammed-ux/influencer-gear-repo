@@ -171,7 +171,60 @@ body {
 
 .card-description {
     font-size: 0.875rem;
-    font-weight: 700;
+    font-weight: 500;
     color: rgb(119, 115, 115);
     line-height: 1.6;
+}
+
+.spon-bottom {
+    margin-top: 50px;
+    margin-left: 950px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: #E02C6D;
+}
+
+.spon-bottom:hover {
+    color: #01F1F1;
+    transform: scale(1.5)
+}
+
+.see-icon {
+    margin-left: 15px;
+}
+
+/* featurs Section Styles */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    margin: 0 400px;
+}
+
+.features img {
+    width: 500px;
+    height: 270px;
+
+}
+
+.feature-text h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.feature-text p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
+    line-height: 28px;
+    width: 500px;
+    margin: 1rem 0;
+}
+
+.feature-text a {
+    text-decoration: none;
+    border-radius: 0;
 }
